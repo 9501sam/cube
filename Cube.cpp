@@ -25,6 +25,7 @@ public:
     double getVolume() {
         return getLength() * getLength() * getLength();
     }
+
 private:
     double length;
 };
